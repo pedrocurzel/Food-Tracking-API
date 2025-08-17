@@ -1,0 +1,141 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Desenvolvimento\\C#\\Food Tracking API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E02B1286-AFF5-A10F-7B86-6487AB2B0F6D}|Food Tracking API.csproj|c:\\desenvolvimento\\c#\\food tracking api\\models\\diary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E02B1286-AFF5-A10F-7B86-6487AB2B0F6D}|Food Tracking API.csproj|solutionrelative:models\\diary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E02B1286-AFF5-A10F-7B86-6487AB2B0F6D}|Food Tracking API.csproj|c:\\desenvolvimento\\c#\\food tracking api\\structs\\mealcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E02B1286-AFF5-A10F-7B86-6487AB2B0F6D}|Food Tracking API.csproj|solutionrelative:structs\\mealcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E02B1286-AFF5-A10F-7B86-6487AB2B0F6D}|Food Tracking API.csproj|c:\\desenvolvimento\\c#\\food tracking api\\dtos\\diaryfooddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E02B1286-AFF5-A10F-7B86-6487AB2B0F6D}|Food Tracking API.csproj|solutionrelative:dtos\\diaryfooddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E02B1286-AFF5-A10F-7B86-6487AB2B0F6D}|Food Tracking API.csproj|c:\\desenvolvimento\\c#\\food tracking api\\controllers\\diarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E02B1286-AFF5-A10F-7B86-6487AB2B0F6D}|Food Tracking API.csproj|solutionrelative:controllers\\diarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E02B1286-AFF5-A10F-7B86-6487AB2B0F6D}|Food Tracking API.csproj|c:\\desenvolvimento\\c#\\food tracking api\\dtos\\diarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E02B1286-AFF5-A10F-7B86-6487AB2B0F6D}|Food Tracking API.csproj|solutionrelative:dtos\\diarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E02B1286-AFF5-A10F-7B86-6487AB2B0F6D}|Food Tracking API.csproj|c:\\desenvolvimento\\c#\\food tracking api\\profile\\foodtrackingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E02B1286-AFF5-A10F-7B86-6487AB2B0F6D}|Food Tracking API.csproj|solutionrelative:profile\\foodtrackingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E02B1286-AFF5-A10F-7B86-6487AB2B0F6D}|Food Tracking API.csproj|c:\\desenvolvimento\\c#\\food tracking api\\services\\diaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E02B1286-AFF5-A10F-7B86-6487AB2B0F6D}|Food Tracking API.csproj|solutionrelative:services\\diaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DiaryController.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\C#\\Food Tracking API\\Controllers\\DiaryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DiaryController.cs",
+              "ToolTip": "C:\\Desenvolvimento\\C#\\Food Tracking API\\Controllers\\DiaryController.cs",
+              "RelativeToolTip": "Controllers\\DiaryController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T04:00:53.904Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Diary.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\C#\\Food Tracking API\\Models\\Diary.cs",
+              "RelativeDocumentMoniker": "Models\\Diary.cs",
+              "ToolTip": "C:\\Desenvolvimento\\C#\\Food Tracking API\\Models\\Diary.cs",
+              "RelativeToolTip": "Models\\Diary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T05:49:37.723Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MealCategory.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\C#\\Food Tracking API\\Structs\\MealCategory.cs",
+              "RelativeDocumentMoniker": "Structs\\MealCategory.cs",
+              "ToolTip": "C:\\Desenvolvimento\\C#\\Food Tracking API\\Structs\\MealCategory.cs",
+              "RelativeToolTip": "Structs\\MealCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T05:53:04.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DiaryFoodDTO.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\C#\\Food Tracking API\\DTOs\\DiaryFoodDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\DiaryFoodDTO.cs",
+              "ToolTip": "C:\\Desenvolvimento\\C#\\Food Tracking API\\DTOs\\DiaryFoodDTO.cs",
+              "RelativeToolTip": "DTOs\\DiaryFoodDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T05:50:08.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DiaryDTO.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\C#\\Food Tracking API\\DTOs\\DiaryDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\DiaryDTO.cs",
+              "ToolTip": "C:\\Desenvolvimento\\C#\\Food Tracking API\\DTOs\\DiaryDTO.cs",
+              "RelativeToolTip": "DTOs\\DiaryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T05:49:39.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FoodTrackingProfile.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\C#\\Food Tracking API\\Profile\\FoodTrackingProfile.cs",
+              "RelativeDocumentMoniker": "Profile\\FoodTrackingProfile.cs",
+              "ToolTip": "C:\\Desenvolvimento\\C#\\Food Tracking API\\Profile\\FoodTrackingProfile.cs",
+              "RelativeToolTip": "Profile\\FoodTrackingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T05:44:08.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DiaryService.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\C#\\Food Tracking API\\Services\\DiaryService.cs",
+              "RelativeDocumentMoniker": "Services\\DiaryService.cs",
+              "ToolTip": "C:\\Desenvolvimento\\C#\\Food Tracking API\\Services\\DiaryService.cs",
+              "RelativeToolTip": "Services\\DiaryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T05:37:52.291Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -25,7 +25,11 @@ public class DiaryController(
     public async Task<IActionResult> GetDiaryByDate(int userId, int day, int month, int year)
     {
         Diary? diary = await _diaryService.GetDiaryByDate(userId: userId, date: new DateTime(day: day, month: month, year: year));
-        if (diary == null) return NotFound();
+        if (diary == null) return NotFound(new
+        {
+            message = "Diary does not exists!",
+            error = true
+        });
         return Ok(_mapper.Map<DiaryDTO>(diary));
     }
 

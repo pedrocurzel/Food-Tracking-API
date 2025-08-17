@@ -1,3 +1,4 @@
+using AutoMapper;
 using Food_Tracking_API.Context;
 using Food_Tracking_API.DTOs;
 using Food_Tracking_API.Interfaces;
@@ -10,16 +11,17 @@ public class DiaryService(FoodTrackingContext _context) : IDiaryService
 {
     public async Task<Diary?> GetDiaryByDate(int userId, DateTime date)
     {
-        return await _context.Diaries.FirstOrDefaultAsync(
+        return await _context.Diaries.Include(x => x.DiaryFoods).FirstOrDefaultAsync(
             x => x.UserId == userId &&
-                 x.Date.Day ==   date.Day &&
+                 x.Date.Day == date.Day &&
                  x.Date.Month == date.Month &&
-                 x.Date.Year ==  date.Year
+                 x.Date.Year == date.Year
         );
     }
 
     public async Task<Diary> CreateDiaryByDate(CreateDiaryDTO createDiary)
     {
+        createDiary.Date = createDiary.Date.Date;
         var e = await _context.Diaries.AddAsync(new Diary
         {
             UserId = createDiary.UserId,

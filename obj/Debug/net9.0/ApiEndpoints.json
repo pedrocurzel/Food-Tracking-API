@@ -1,0 +1,139 @@
+[
+  {
+    "ContainingType": "Food_Tracking_API.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDTO",
+        "Type": "Food_Tracking_API.DTOs.Auth.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Food_Tracking_API.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "Auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "register",
+        "Type": "Food_Tracking_API.DTOs.RegisterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Food_Tracking_API.Controllers.AuthController",
+    "Method": "ValidateToken",
+    "RelativePath": "Auth/validate-token",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Food_Tracking_API.Controllers.DiaryController",
+    "Method": "CreateDiaryByDate",
+    "RelativePath": "Diary/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createDiary",
+        "Type": "Food_Tracking_API.DTOs.CreateDiaryDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Food_Tracking_API.Controllers.DiaryController",
+    "Method": "GetDiaryByDate",
+    "RelativePath": "Diary/get/{userId}/{day}/{month}/{year}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "day",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "month",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "year",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Food_Tracking_API.Controllers.DiaryFoodController",
+    "Method": "CreateDiaryFood",
+    "RelativePath": "DiaryFood/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createDiaryFood",
+        "Type": "Food_Tracking_API.DTOs.DiaryFoodDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Food_Tracking_API.Controllers.DiaryFoodController",
+    "Method": "GetDiaryFoodByDiaryId",
+    "RelativePath": "DiaryFood/get-by-diary/{DiaryId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DiaryId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Food_Tracking_API.Controllers.DiaryFoodController",
+    "Method": "GetDiaryFoodById",
+    "RelativePath": "DiaryFood/get/{DiaryFoodId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DiaryFoodId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

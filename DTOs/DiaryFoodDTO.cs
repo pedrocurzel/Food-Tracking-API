@@ -15,8 +15,4 @@ public class DiaryFoodDTO
     public required int FoodGramsQuantity { get; set; }
     [Required, Range(0, 3)]
     public required MealCategory MealCategory { get; set; }
-
-    public FoodDTO? Food { get; set; } = null!;
-    public DiaryDTO? Diary { get; set; } = null!;
-
 }
